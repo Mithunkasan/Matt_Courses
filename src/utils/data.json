@@ -1,0 +1,3959 @@
+{
+  "courses": [
+    {
+      "id": "python-fullstack-development",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "50 hours",
+      "instructor": {
+        "name": "Jane Doe",
+        "title": "Senior Full Stack Developer & Instructor",
+        "bio": "Jane Doe is a seasoned full-stack developer with over 12 years of experience in building scalable web applications using various technology stacks. She has mentored thousands of students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 10,
+        "students": 500000,
+        "rating": 4.8
+      },
+      "price": 99.99,
+      "discountPrice": 19.99,
+      "includes": [
+        "50 hours on-demand video",
+        "80 coding exercises",
+        "40 downloadable resources",
+        "6 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Full Stack Development",
+          "lectures": 10,
+          "duration": "2 hours",
+          "content": [
+            {
+              "title": "Course Overview",
+              "duration": "10:00",
+              "preview": true
+            },
+            {
+              "title": "Understanding Full Stack Development",
+              "duration": "20:00",
+              "preview": true
+            }
+          ]
+        },
+        {
+          "title": "Frontend Development with React",
+          "lectures": 15,
+          "duration": "5 hours",
+          "content": [
+            {
+              "title": "Setting up React Environment",
+              "duration": "15:00",
+              "preview": false
+            },
+            {
+              "title": "Building Components",
+              "duration": "30:00",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Backend Development with Node.js and Express",
+          "lectures": 15,
+          "duration": "5 hours",
+          "content": [
+            {
+              "title": "Introduction to Node.js",
+              "duration": "20:00",
+              "preview": false
+            },
+            {
+              "title": "Creating RESTful APIs with Express",
+              "duration": "40:00",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Database Integration with MongoDB and MySQL",
+          "lectures": 10,
+          "duration": "3 hours",
+          "content": [
+            {
+              "title": "Connecting to MongoDB",
+              "duration": "25:00",
+              "preview": false
+            },
+            {
+              "title": "Working with MySQL",
+              "duration": "30:00",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Develop full-stack web applications using MERN, MEAN, and LAMP stacks",
+        "Implement RESTful APIs and integrate with frontend frameworks",
+        "Manage databases using MongoDB and MySQL",
+        "Deploy applications to cloud platforms",
+        "Understand the fundamentals of web security and authentication",
+        "Optimize applications for performance and scalability"
+      ],
+      "requirements": [
+        "Basic understanding of HTML, CSS, and JavaScript",
+        "A computer with internet access",
+        "Willingness to learn and build projects"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "java-fullstack-development",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "digital-marketing",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "research-analyst-training",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "data-analysis",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "content-creation",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "video-editing",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "artificial-intelligence",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "automation-engineering",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "virtual-reality",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "augmented-reality",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "robotics-core-advanced",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "hardware-network-security",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "network-engineering-hardware",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "iot-hardware-development",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "electronics-communication",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "vlsi",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "embedded-systems-programming",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "it-project-management",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "blockchain-development",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "data-structures-algorithms",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "database-management",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "manual-automation-testing",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "uiux%20design",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "mobile-app-development",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "back-end-development",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "front-end-development",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    },
+    {
+      "id": "full-stack-development",
+      "title": "Complete Python Programming: From Beginner to Advanced",
+      "subtitle": "Master Python programming with hands-on projects, algorithms, data structures, and real-world applications",
+      "rating": 4.8,
+      "reviews": 12584,
+      "students": 245780,
+      "lastUpdated": "April 2025",
+      "language": "English & Tamil",
+      "level": "All Levels",
+      "duration": "45 hours",
+      "instructor": {
+        "name": "Dr. Sarah Johnson",
+        "title": "Senior Software Engineer & Python Expert",
+        "bio": "Ph.D. in Computer Science with 15+ years of industry experience. Taught Python to over 500,000 students worldwide.",
+        "image": "/placeholder.svg?height=150&width=150",
+        "courses": 12,
+        "students": 750000,
+        "rating": 4.9
+      },
+      "price": 89.99,
+      "discountPrice": 14.99,
+      "includes": [
+        "45 hours on-demand video",
+        "72 coding exercises",
+        "35 downloadable resources",
+        "5 real-world projects",
+        "Full lifetime access",
+        "Certificate of completion"
+      ],
+      "sections": [
+        {
+          "title": "Introduction to Python",
+          "lectures": 12,
+          "duration": "2.5 hours",
+          "content": [
+            {
+              "title": "Welcome to the course",
+              "duration": "5:12",
+              "preview": true
+            },
+            {
+              "title": "Setting up your Python environment",
+              "duration": "15:47",
+              "preview": true
+            },
+            {
+              "title": "Understanding Python syntax",
+              "duration": "12:35",
+              "preview": false
+            },
+            {
+              "title": "Variables and data types",
+              "duration": "18:25",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Python Control Structures",
+          "lectures": 18,
+          "duration": "3.5 hours",
+          "content": [
+            {
+              "title": "Conditional statements (if, elif, else)",
+              "duration": "14:22",
+              "preview": false
+            },
+            {
+              "title": "Loops in Python (for, while)",
+              "duration": "16:35",
+              "preview": false
+            },
+            {
+              "title": "Break and continue statements",
+              "duration": "10:17",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Functions and Modules",
+          "lectures": 15,
+          "duration": "4 hours",
+          "content": [
+            {
+              "title": "Creating and using functions",
+              "duration": "17:42",
+              "preview": false
+            },
+            {
+              "title": "Function arguments and return values",
+              "duration": "18:25",
+              "preview": false
+            },
+            {
+              "title": "Lambda functions",
+              "duration": "12:10",
+              "preview": false
+            }
+          ]
+        },
+        {
+          "title": "Object-Oriented Programming",
+          "lectures": 22,
+          "duration": "5.5 hours",
+          "content": [
+            {
+              "title": "Classes and Objects",
+              "duration": "15:22",
+              "preview": false
+            },
+            {
+              "title": "Inheritance and Polymorphism",
+              "duration": "22:15",
+              "preview": false
+            },
+            {
+              "title": "Encapsulation and Abstraction",
+              "duration": "19:34",
+              "preview": false
+            }
+          ]
+        }
+      ],
+      "whatYouWillLearn": [
+        "Build 5 real-world Python applications from scratch",
+        "Master Python programming fundamentals and advanced concepts",
+        "Work with databases, APIs, and web frameworks",
+        "Implement data structures and algorithms in Python",
+        "Create GUI applications with Tkinter",
+        "Understand object-oriented programming principles",
+        "Develop automation scripts and tools",
+        "Prepare for Python developer interviews"
+      ],
+      "requirements": [
+        "No prior programming experience required - we'll start from the basics",
+        "Basic computer skills (file management, internet browsing)",
+        "A computer with Windows, Mac, or Linux"
+      ],
+      "description": "This comprehensive Python course takes you from absolute beginner to advanced programmer through hands-on projects, coding exercises, and real-world applications. You'll learn Python from the ground up and gain the skills needed to build professional applications.Whether you're looking to start a career in programming, automate tasks, analyze data, or build web applications, this course provides the perfect foundation in Python programming.The course is constantly updated with new content, projects, and resources based on student feedback and the latest developments in Python."
+    }
+  
+  ]
+
+  
+  
+
+}
+

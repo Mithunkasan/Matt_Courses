@@ -1,0 +1,43 @@
+{
+  "greetings": ["Hello!", "Hi there!", "Welcome! How can I help you?"],
+  "responses": {
+    "payment": "We accept most major credit cards, and Paypal",
+    "program": "Our main program focuses on AI and web development education",
+    "contact": "You can reach us at support@example.com",
+    "default": "I'm not sure about that. Can you ask something else?"
+  },
+  "farewells": ["Goodbye!", "See you later!", "Thanks for visiting!"],
+  "matt": ["Matt Engineering Solutions established in February 2014 is a multifaceted technology and research services company headquartered in Nagercoil Tamil Nadu India. They also operate a branch office in Ernakulam Kerala "],
+  "Services": ["Matt Engineering Solutions offers a comprehensive suite of services across various domains!"],
+  "Team ":["The company is led by Managing Director Mohammed Shaheer, with key team members including Praveen Mathias (Administrator), Mohamed Azharuddin (Project Manager), Ragunathan (Hardware Project Head), and Aneesh P. Kunjappy (Software Project Head) "],
+  
+  "courses": [
+    "full-stack-development",
+    "front-end-development",
+    "python",
+    "mobile-app-development",
+    "uiux-design",
+    "manual-automation-testing",
+    "database-management",
+    "data-structures-algorithms",
+    "blockchain-development",
+    "it-project-management",
+    "embedded-systems-programming",
+    "vlsi",
+    "electronics-communication",
+    "iot-hardware-development",
+    "network-engineering-hardware",
+    "hardware-network-security",
+    "robotics-core-advanced",
+    "augmented-reality",
+    "virtual-reality",
+    "automation-engineering",
+    "artificial-intelligence",
+    "video-editing",
+    "content-creation",
+    "data-analysis",
+    "research-analyst-training",
+    "digital-marketing"
+  ]
+  
+}
