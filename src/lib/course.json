@@ -1,0 +1,43 @@
+
+{
+  "categories": [
+    {
+      "title": "Software Courses",
+      "icon": "Code",
+      "items": [
+        { "title": "Java Fullstack", "link": "/courses/java-fullstack" },
+        { "title": "Python Fullstack", "link": "/courses/python-fullstack" },
+        { "title": "MERN Stack", "link": "/courses/mern-stack" },
+        { "title": "MEAN Stack", "link": "/courses/mean-stack" },
+        { "title": "Frontend Development", "link": "/courses/frontend-dev" }
+      ]
+    },
+    {
+      "title": "Hardware Courses",
+      "icon": "Memory",
+      "items": [
+        { "title": "Embedded Systems", "link": "/courses/embedded-systems" },
+        { "title": "IoT Development", "link": "/courses/iot-development" },
+        { "title": "Computer Architecture", "link": "/courses/computer-architecture" }
+      ]
+    },
+    {
+      "title": "Technology Courses",
+      "icon": "Computer",
+      "items": [
+        { "title": "Cloud Computing", "link": "/courses/cloud-computing" },
+        { "title": "DevOps", "link": "/courses/devops" },
+        { "title": "Cybersecurity", "link": "/courses/cybersecurity" }
+      ]
+    },
+    {
+      "title": "Creative & Digital",
+      "icon": "Palette",
+      "items": [
+        { "title": "UI/UX Design", "link": "/courses/ui-ux-design" },
+        { "title": "Graphic Design", "link": "/courses/graphic-design" },
+        { "title": "Digital Marketing", "link": "/courses/digital-marketing" }
+      ]
+    }
+  ]
+}
