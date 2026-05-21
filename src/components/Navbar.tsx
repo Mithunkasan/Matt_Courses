@@ -857,6 +857,7 @@ interface NavbarProps {
 const navItems = [
   { label: "Home", path: "/", hasDropdown: false },
   { label: "Courses", path: "/courses", hasDropdown: true },
+  { label: "Internship", path: "/internships", hasDropdown: true },
   { label: "About us", path: "/aboutUs", hasDropdown: false },
   { label: "Contact", path: "/Contacts", hasDropdown: false },
 ]
@@ -871,6 +872,7 @@ interface Category {
   icon: React.ComponentType<any>
   color: string
   courses: CourseItem[]
+  path: string
 }
 
 const categorizedCourses: Category[] = [
@@ -885,7 +887,8 @@ const categorizedCourses: Category[] = [
       { title: "Internet of Things (IoT)", path: "/courses/iot" },
       { title: "Drone Technology", path: "/courses/drone-technology" },
       { title: "Embedded Systems", path: "/courses/embedded-systems" },
-    ]
+    ],
+    path: "/hardware"
   },
   {
     category: "Programming Languages",
@@ -896,7 +899,8 @@ const categorizedCourses: Category[] = [
       { title: "C++ Programming", path: "/courses/cpp-programming" },
       { title: "Java Programming", path: "/courses/java-programming" },
       { title: "Python Programming", path: "/courses/python-programming" },
-    ]
+    ],
+    path: "/programming"
   },
   {
     category: "Analytics & AI",
@@ -909,7 +913,8 @@ const categorizedCourses: Category[] = [
       { title: "Artificial Intelligence", path: "/courses/artificial-intelligence" },
       { title: "Power BI", path: "/courses/power-bi" },
       { title: "MATLAB", path: "/courses/matlab" },
-    ]
+    ],
+    path: "/analytics"
   },
   {
     category: "Software & Cyber",
@@ -923,14 +928,67 @@ const categorizedCourses: Category[] = [
       { title: "Linux Administration", path: "/courses/linux" },
       { title: "RPA (Automation)", path: "/courses/rpa" },
       { title: "Digital Marketing", path: "/courses/digital-marketing" },
-    ]
+    ],
+    path: "/software"
   }
 ]
+
+const categorizedInternships: Category[] = [
+  {
+    category: "Hardware & Embedded",
+    icon: Cpu,
+    color: "from-blue-600 to-indigo-600",
+    courses: [
+      { title: "Firmware Engineer", path: "/internships/firmware-engineer" },
+      { title: "IoT Solutions Engineer", path: "/internships/iot-solutions-engineer" },
+      { title: "Autonomous Systems Engineer", path: "/internships/autonomous-systems-engineer" },
+      { title: "Hardware Design Engineer", path: "/internships/hardware-design-engineer" },
+    ],
+    path: "/internships/hardware-embedded"
+  },
+  {
+    category: "Programming",
+    icon: Terminal,
+    color: "from-amber-500 to-orange-500",
+    courses: [
+      { title: "Software Engineer", path: "/internships/software-engineer" },
+      { title: "Python Developer", path: "/internships/python-developer" },
+    ],
+    path: "/internships/programming"
+  },
+  {
+    category: "Data, AI & Analytics",
+    icon: BrainCircuit,
+    color: "from-emerald-500 to-teal-500",
+    courses: [
+      { title: "ML / AI Engineer", path: "/internships/ml-ai-engineer" },
+      { title: "Data Scientist", path: "/internships/data-scientist" },
+      { title: "Business Intelligence Analyst", path: "/internships/business-intelligence-analyst" },
+      { title: "Simulation & Modelling Engineer", path: "/internships/simulation-modelling-engineer" },
+    ],
+    path: "/internships/data-ai-analytics"
+  },
+  {
+    category: "Web, Security & Automation",
+    icon: Layers,
+    color: "from-pink-500 to-rose-500",
+    courses: [
+      { title: "Full Stack Developer", path: "/internships/full-stack-developer" },
+      { title: "Cyber Security Analyst", path: "/internships/cyber-security-analyst" },
+      { title: "RPA Developer", path: "/internships/rpa-developer" },
+      { title: "Digital Marketing Analyst", path: "/internships/digital-marketing-analyst" },
+      { title: "Linux Systems Administrator", path: "/internships/linux-systems-administrator" },
+    ],
+    path: "/internships/web-security-automation"
+  }
+]
+
 
 export default function Navbar({ position = "fixed" }: NavbarProps) {
   const router = useRouter()
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isCoursesOpen, setIsCoursesOpen] = useState(false)
+  const [isInternshipsOpen, setIsInternshipsOpen] = useState(false)
   const [isMounted, setIsMounted] = useState(false)
 
   useEffect(() => {
@@ -941,6 +999,7 @@ export default function Navbar({ position = "fixed" }: NavbarProps) {
     router.push(path)
     setIsMobileMenuOpen(false)
     setIsCoursesOpen(false)
+    setIsInternshipsOpen(false)
   }
 
   const handleNavClick = (path: string) => {
@@ -1088,7 +1147,7 @@ export default function Navbar({ position = "fixed" }: NavbarProps) {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center space-x-1 xl:space-x-2 flex-1 justify-center max-w-2xl">
+            <div className="hidden lg:flex items-center space-x-1 xl:space-x-2 flex-1 justify-center max-w-3xl">
               {navItems.map((item) =>
                 item.label === "Courses" ? (
                   <DropdownMenu key={item.label}>
@@ -1126,11 +1185,83 @@ export default function Navbar({ position = "fixed" }: NavbarProps) {
                           const IconComponent = cat.icon;
                           return (
                             <div key={cat.category} className="space-y-3">
-                              <div className="flex items-center gap-2 pb-2 border-b border-gray-100">
-                                <div className={`p-1 bg-gradient-to-br ${cat.color} rounded text-white`}>
+                              <div
+                                onClick={() => handleCourseClick(cat.path)}
+                                className="flex items-center gap-2 pb-2 border-b border-gray-100 cursor-pointer group/header hover:border-blue-500/80 transition-colors duration-200"
+                              >
+                                <div className={`p-1 bg-gradient-to-br ${cat.color} rounded text-white group-hover/header:scale-110 transition-transform duration-200`}>
                                   <IconComponent className="h-3.5 w-3.5" />
                                 </div>
-                                <h4 className="text-xs font-bold text-gray-800 tracking-wide uppercase">
+                                <h4 className="text-xs font-bold text-gray-800 tracking-wide uppercase group-hover/header:text-blue-600 transition-colors duration-200">
+                                  {cat.category}
+                                </h4>
+                              </div>
+                              <div className="space-y-0.5">
+                                {cat.courses.map((course) => (
+                                  <DropdownMenuItem
+                                    key={course.title}
+                                    className="p-0 cursor-pointer focus:bg-transparent"
+                                    onClick={() => handleCourseClick(course.path)}
+                                  >
+                                    <div className="flex items-center justify-between w-full py-1.5 px-2 rounded-lg hover:bg-blue-50/70 transition-all duration-200 group text-left">
+                                      <span className="font-semibold text-gray-600 group-hover:text-blue-600 transition-colors text-xs leading-snug">
+                                        {course.title}
+                                      </span>
+                                      <ChevronRight className="h-3 w-3 text-blue-500 opacity-0 group-hover:opacity-100 transition-all duration-200 group-hover:translate-x-0.5 flex-shrink-0" />
+                                    </div>
+                                  </DropdownMenuItem>
+                                ))}
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                ) : item.label === "Internship" ? (
+                  <DropdownMenu key={item.label}>
+                    <DropdownMenuTrigger asChild>
+                      <Button
+                        variant="ghost"
+                        className="px-2 lg:px-3 xl:px-4 py-2 text-sm lg:text-base xl:text-lg font-semibold text-gray-700 hover:text-blue-500 hover:bg-blue-50 rounded-xl transition-all duration-200 group hover-lift whitespace-nowrap cursor-pointer"
+                        style={{
+                          fontSize: "clamp(14px, 1.5vw, 18px)",
+                          fontWeight: "600",
+                        }}
+                      >
+                        {item.label}
+                        <ChevronDown className="ml-1 h-3 w-3 lg:h-4 lg:w-4 transition-transform duration-200 group-data-[state=open]:rotate-180" />
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent
+                      className="w-[95vw] max-w-4xl p-6 mt-2 bg-white border border-gray-200 rounded-2xl shadow-2xl custom-scrollbar overflow-y-auto max-h-[85vh]"
+                      align="center"
+                      style={{
+                        background: "linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)",
+                        boxShadow: "0 20px 40px -12px rgba(0, 0, 0, 0.25)",
+                        border: "1px solid rgba(0, 0, 0, 0.05)",
+                      }}
+                    >
+                      <div className="flex items-center gap-2 mb-6 pb-4 border-b border-gray-100">
+                        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg p-1.5 shadow-sm text-white">
+                          <Code className="h-4 w-4" />
+                        </div>
+                        <h3 className="text-base lg:text-lg font-bold text-gray-900">Explore Professional Internship Roles</h3>
+                      </div>
+
+                      <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+                        {categorizedInternships.map((cat) => {
+                          const IconComponent = cat.icon;
+                          return (
+                            <div key={cat.category} className="space-y-3">
+                              <div
+                                onClick={() => handleCourseClick(cat.path)}
+                                className="flex items-center gap-2 pb-2 border-b border-gray-100 cursor-pointer group/header hover:border-blue-500/80 transition-colors duration-200"
+                              >
+                                <div className={`p-1 bg-gradient-to-br ${cat.color} rounded text-white group-hover/header:scale-110 transition-transform duration-200`}>
+                                  <IconComponent className="h-3.5 w-3.5" />
+                                </div>
+                                <h4 className="text-xs font-bold text-gray-800 tracking-wide uppercase group-hover/header:text-blue-600 transition-colors duration-200">
                                   {cat.category}
                                 </h4>
                               </div>
@@ -1247,21 +1378,97 @@ export default function Navbar({ position = "fixed" }: NavbarProps) {
                         const IconComponent = cat.icon;
                         return (
                           <Collapsible key={cat.category} className="w-full">
-                            <CollapsibleTrigger asChild>
+                            <div className="flex items-center justify-between w-full hover:bg-gray-50 rounded-lg pr-1">
                               <Button
                                 variant="ghost"
-                                className="w-full justify-between p-2 text-left font-semibold text-gray-700 hover:bg-gray-50 rounded-lg transition-all duration-200"
+                                className="flex-1 justify-start p-2 text-left font-semibold text-gray-700 hover:bg-transparent rounded-r-none transition-all duration-200"
                                 style={{ fontSize: "14px" }}
+                                onClick={() => handleCourseClick(cat.path)}
                               >
                                 <div className="flex items-center gap-2">
                                   <div className={`p-1 bg-gradient-to-br ${cat.color} rounded text-white`}>
                                     <IconComponent className="h-3 w-3" />
                                   </div>
-                                  <span>{cat.category}</span>
+                                  <span className="hover:text-blue-600 transition-colors">{cat.category}</span>
                                 </div>
-                                <ChevronDown className="h-3.5 w-3.5 text-gray-400" />
                               </Button>
-                            </CollapsibleTrigger>
+                              <CollapsibleTrigger asChild>
+                                <Button
+                                  variant="ghost"
+                                  size="sm"
+                                  className="h-8 w-8 p-0 text-gray-400 hover:text-gray-700 rounded-md"
+                                >
+                                  <ChevronDown className="h-4 w-4" />
+                                </Button>
+                              </CollapsibleTrigger>
+                            </div>
+                            <CollapsibleContent className="space-y-1 mt-1 ml-6 border-l border-gray-100 pl-2">
+                              {cat.courses.map((course) => (
+                                <Button
+                                  key={course.title}
+                                  variant="ghost"
+                                  className="w-full justify-start p-1.5 text-left hover:bg-blue-50 hover:text-blue-600 rounded-md transition-all duration-200 text-xs font-medium"
+                                  onClick={() => handleCourseClick(course.path)}
+                                >
+                                  <span className="flex-1">{course.title}</span>
+                                  <ChevronRight className="h-3 w-3 text-blue-500 opacity-60 flex-shrink-0" />
+                                </Button>
+                              ))}
+                            </CollapsibleContent>
+                          </Collapsible>
+                        );
+                      })}
+                    </CollapsibleContent>
+                  </Collapsible>
+                ) : item.label === "Internship" ? (
+                  <Collapsible key={item.label} open={isInternshipsOpen} onOpenChange={setIsInternshipsOpen}>
+                    <CollapsibleTrigger asChild>
+                      <Button
+                        variant="ghost"
+                        className="w-full justify-between p-2 sm:p-3 text-left font-semibold text-gray-900 hover:bg-blue-50 hover:text-blue-600 rounded-xl transition-all duration-200 hover-lift"
+                        style={{
+                          fontSize: "clamp(15px, 4vw, 18px)",
+                          fontWeight: "600",
+                        }}
+                      >
+                        <span>{item.label}</span>
+                        <div
+                          className="transition-transform duration-200"
+                          style={{ transform: isInternshipsOpen ? "rotate(180deg)" : "rotate(0deg)" }}
+                        >
+                          <ChevronDown className="h-4 w-4 sm:h-5 sm:w-5" />
+                        </div>
+                      </Button>
+                    </CollapsibleTrigger>
+                    <CollapsibleContent className="space-y-2 mt-1 sm:mt-2 ml-3 sm:ml-4 border-l border-gray-100 pl-2">
+                      {categorizedInternships.map((cat) => {
+                        const IconComponent = cat.icon;
+                        return (
+                          <Collapsible key={cat.category} className="w-full">
+                            <div className="flex items-center justify-between w-full hover:bg-gray-50 rounded-lg pr-1">
+                              <Button
+                                variant="ghost"
+                                className="flex-1 justify-start p-2 text-left font-semibold text-gray-700 hover:bg-transparent rounded-r-none transition-all duration-200"
+                                style={{ fontSize: "14px" }}
+                                onClick={() => handleCourseClick(cat.path)}
+                              >
+                                <div className="flex items-center gap-2">
+                                  <div className={`p-1 bg-gradient-to-br ${cat.color} rounded text-white`}>
+                                    <IconComponent className="h-3 w-3" />
+                                  </div>
+                                  <span className="hover:text-blue-600 transition-colors">{cat.category}</span>
+                                </div>
+                              </Button>
+                              <CollapsibleTrigger asChild>
+                                <Button
+                                  variant="ghost"
+                                  size="sm"
+                                  className="h-8 w-8 p-0 text-gray-400 hover:text-gray-700 rounded-md"
+                                >
+                                  <ChevronDown className="h-4 w-4" />
+                                </Button>
+                              </CollapsibleTrigger>
+                            </div>
                             <CollapsibleContent className="space-y-1 mt-1 ml-6 border-l border-gray-100 pl-2">
                               {cat.courses.map((course) => (
                                 <Button

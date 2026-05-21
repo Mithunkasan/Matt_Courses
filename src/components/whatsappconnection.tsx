@@ -4,7 +4,7 @@ import { Fab } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const WhatsAppConnect: React.FC = () => {
-  const phoneNumber = "8523970571 "; // Replace with your WhatsApp number (with country code)
+  const phoneNumber = "7305197833"; // Replace with your WhatsApp number (with country code)
   const preFilledMessage = "Hello! I need more information."; // Pre-filled message when the user clicks the button
 
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${preFilledMessage}`;

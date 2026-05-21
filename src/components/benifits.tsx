@@ -2,29 +2,140 @@
 
 import { useState, useEffect, useRef } from 'react';
 
-const ProgramSections = () => {
+interface ProgramSectionsProps {
+  programStructure?: string[];
+  careerSupport?: string[];
+  courseTitle?: string;
+  keySkills?: string[];
+}
+
+const getDynamicStructureAndSupport = (
+  title: string,
+  keySkills: string[] = [],
+  customStructure?: string[],
+  customSupport?: string[]
+) => {
+  if (customStructure && customSupport && customStructure.length > 0 && customSupport.length > 0) {
+    return {
+      programStructure: customStructure,
+      careerSupport: customSupport,
+    };
+  }
+
+  const name = title || "Selected Program";
+  const skillText1 = keySkills[0] || "Core Fundamentals";
+  const skillText2 = keySkills[1] || "Practical Implementations";
+  const skillText3 = keySkills[2] || "Advanced Concepts";
+
+  const lowerTitle = name.toLowerCase();
+  const isHardware = lowerTitle.includes("embedded") || 
+                    lowerTitle.includes("electronics") || 
+                    lowerTitle.includes("pcb") || 
+                    lowerTitle.includes("robotics") || 
+                    lowerTitle.includes("iot") || 
+                    lowerTitle.includes("drone") || 
+                    lowerTitle.includes("hardware") ||
+                    lowerTitle.includes("firmware") ||
+                    lowerTitle.includes("vlsi") ||
+                    lowerTitle.includes("autonomous");
+
+  const isAIData = lowerTitle.includes("ai") || 
+                   lowerTitle.includes("machine learning") || 
+                   lowerTitle.includes("data") || 
+                   lowerTitle.includes("analytics") || 
+                   lowerTitle.includes("power bi") || 
+                   lowerTitle.includes("matlab") || 
+                   lowerTitle.includes("simulation") ||
+                   lowerTitle.includes("modelling") ||
+                   lowerTitle.includes("intelligence");
+
+  let generatedStructure: string[] = [];
+  let generatedSupport: string[] = [];
+
+  if (isHardware) {
+    generatedStructure = [
+      `Beginner-friendly, designed for students and working professionals aspiring to enter the ${name} industry`,
+      `120+ hours of hands-on laboratory content covering ${skillText1}, ${skillText2}, and ${skillText3}`,
+      `Step-by-step learning path from basic circuit design/schematics to advanced hardware deployment`,
+      `Live hardware testing sessions, real-world prototyping projects, and weekly lab challenges`,
+      `Dedicated lab mentor and hardware/software troubleshooting support`,
+      `Learn to design, test, and debug complete physical prototypes and systems`,
+      `Access to exclusive engineering community for peer learning and professional networking`
+    ];
+
+    generatedSupport = [
+      `1:1 mock technical interviews with senior system and hardware engineers`,
+      `Career mentorship focused on Embedded, VLSI, IoT, and hardware design roles`,
+      `Access to 100+ hardware engineering and core domain job listings every month`,
+      `Resume, GitHub, and professional portfolio review by hardware experts`,
+      `Assistance with hardware project documentation and Git code repository setup`,
+      `Interview preparation for design, firmware, and validation engineer roles in top core firms`,
+      `Guaranteed internship and job referrals with partner hardware and system design companies`
+    ];
+  } else if (isAIData) {
+    generatedStructure = [
+      `Beginner-friendly, designed for students and working professionals aiming for ${name} roles`,
+      `120+ hours of hands-on project content covering ${skillText1}, ${skillText2}, and ${skillText3}`,
+      `Step-by-step learning path from data handling basics to advanced model deployment`,
+      `Live dataset exploration sessions, real-world case studies, and analytics challenges`,
+      `Dedicated mentor and doubt-clearing support for complex mathematical & coding queries`,
+      `Learn to build, deploy, and scale analytical pipelines and intelligent systems`,
+      `Access to exclusive data and AI community for peer learning and industry networking`
+    ];
+
+    generatedSupport = [
+      `1:1 mock technical interviews with senior data scientists and AI research engineers`,
+      `Career mentorship focused on Data Analysis, ML, and Business Intelligence roles`,
+      `Access to 150+ analytics and data science job listings every month`,
+      `Resume, Kaggle, and LinkedIn profile review by industry analytics experts`,
+      `Assistance with research portfolio, live dashboard deployment, and model hosting`,
+      `Interview preparation for data scientist, BI analyst, and ML engineering roles`,
+      `Guaranteed internship and job referrals with partner data-driven tech companies`
+    ];
+  } else {
+    // Software & Programming default
+    generatedStructure = [
+      `Beginner-friendly, designed for students and working professionals aiming for ${name} roles`,
+      `120+ hours of hands-on video content covering ${skillText1}, ${skillText2}, and ${skillText3}`,
+      `Step-by-step learning path from programming basics to advanced architecture concepts`,
+      `Live coding sessions, real-world software projects, and weekly coding challenges`,
+      `Dedicated mentor and code doubt-clearing support`,
+      `Learn to build, deploy, and scale complete software solutions`,
+      `Access to exclusive developer community for peer learning and networking`
+    ];
+
+    generatedSupport = [
+      `1:1 mock technical interviews with senior software and DevOps engineers`,
+      `Career mentorship focused on frontend, backend, security, and full-stack roles`,
+      `Access to 200+ software developer and programming job listings every month`,
+      `Resume, GitHub, and LinkedIn profile review by tech industry experts`,
+      `Assistance with portfolio and live project deployment on GitHub & cloud services`,
+      `Interview preparation for professional software developer and engineer roles`,
+      `Guaranteed internship and job referrals with partner technology companies`
+    ];
+  }
+
+  return {
+    programStructure: customStructure && customStructure.length > 0 ? customStructure : generatedStructure,
+    careerSupport: customSupport && customSupport.length > 0 ? customSupport : generatedSupport,
+  };
+};
+
+const ProgramSections = ({
+  programStructure: customStructure,
+  careerSupport: customSupport,
+  courseTitle = "Python Fullstack Development",
+  keySkills = []
+}: ProgramSectionsProps) => {
   const [sectionsVisible, setSectionsVisible] = useState(false);
   const containerRef = useRef(null);
 
-  const programStructure = [
-    "Beginner-friendly, designed for students and working professionals",
-    "120+ hours of hands-on video content covering Python, Django, React, and APIs",
-    "Step-by-step learning path from basics to advanced full-stack concepts",
-    "Live coding sessions, real-world projects, and weekly challenges",
-    "Dedicated mentor and doubt-clearing support",
-    "Learn to build, deploy, and scale complete web applications",
-    "Access to exclusive developer community for peer learning and networking"
-  ];
-
-  const careerSupport = [
-    "1:1 mock technical interviews with senior software engineers",
-    "Career mentorship focused on backend, frontend, and full-stack roles",
-    "Access to 200+ Python/Django/React job listings every month",
-    "Resume, GitHub, and LinkedIn profile review by experts",
-    "Assistance with portfolio and live project deployment on GitHub & cloud",
-    "Interview preparation for MERN/Python/Django/React developer roles",
-    "Guaranteed internship and job referrals with partner companies"
-  ];
+  const { programStructure, careerSupport } = getDynamicStructureAndSupport(
+    courseTitle,
+    keySkills,
+    customStructure,
+    customSupport
+  );
 
   useEffect(() => {
     const observer = new IntersectionObserver(

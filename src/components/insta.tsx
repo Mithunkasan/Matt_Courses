@@ -213,45 +213,51 @@ const PerfectCarousel3D = () => {
   const images = [
     {
       id: 1,
-      url: 'webpost.png',
-      title: 'web development',
-      category: 'software',
+      url: '/image/Mernstack.jpg',
+      title: 'MERN Stack Development',
+      category: 'Software',
+      description: 'Master frontend and backend engineering using MongoDB, Express, React, and Node.js.',
       color: 'from-blue-500 to-cyan-400'
     },
     {
       id: 2,
-      url: 'aipost.png',
-      title: 'AI Innovations',
-      category: 'Technology',
-      color: 'from-purple-500 to-pink-400'
-    },
-    {
-      id: 3,
-      url: '2.jpg',
-      title: 'python programming',
-      category: 'Programming',
-      color: 'from-orange-500 to-red-400'
-    },
-    {
-      id: 4,
-      url: 'insta5.jpg',
-      title: 'java full stack',
-      category: 'Achievement',
-      color: 'from-green-500 to-emerald-400'
-    },
-    {
-      id: 5,
-      url: 'reactpost.png',
-      title: 'React Development',
-      category: 'Development',
+      url: '/pythonfull.jpg',
+      title: 'Python Fullstack Development',
+      category: 'Software',
+      description: 'Build robust, scalable web applications with Python, Django, and modern frontend tools.',
       color: 'from-indigo-500 to-purple-400'
     },
     {
-      id: 6,
-      url: 'insta2.jpg',
-      title: 'Data Analytics',
-      category: 'Science',
+      id: 3,
+      url: '/image/embeded.jpg',
+      title: 'Embedded Systems',
+      category: 'Hardware',
+      description: 'Learn to design, program, and integrate microcontrollers and real-time operating systems.',
+      color: 'from-green-500 to-emerald-400'
+    },
+    {
+      id: 4,
+      url: '/image/AI.jpg',
+      title: 'Artificial Intelligence',
+      category: 'AI',
+      description: 'Explore neural networks, deep learning models, natural language processing, and computer vision.',
+      color: 'from-purple-500 to-pink-400'
+    },
+    {
+      id: 5,
+      url: 'https://images.pexels.com/photos/6153354/pexels-photo-6153354.jpeg?auto=compress&cs=tinysrgb&w=600',
+      title: 'Machine Learning',
+      category: 'AI',
+      description: 'Master predictive modeling, classification, regression, and data clustering techniques.',
       color: 'from-teal-500 to-blue-400'
+    },
+    {
+      id: 6,
+      url: '/image/Programming.jpg',
+      title: 'Python Programming',
+      category: 'Programming',
+      description: 'Begin coding by mastering core Python concepts, data structures, and algorithms.',
+      color: 'from-orange-500 to-red-400'
     }
   ];
 
@@ -394,18 +400,21 @@ const handleDotClick: DotClickHandler = (index) => {
               />
               
               {/* Clean gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
               
               {/* Content Overlay */}
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <div className="mb-3">
-                  <span className={`inline-block px-3 py-1 bg-gradient-to-r ${getImageAtPosition(0).color} text-white text-sm font-semibold rounded-full`}>
+                <div className="mb-2">
+                  <span className={`inline-block px-3 py-1 bg-gradient-to-r ${getImageAtPosition(0).color} text-white text-xs font-semibold rounded-full`}>
                     {getImageAtPosition(0).category}
                   </span>
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold mb-2 leading-tight">
+                <h3 className="text-xl md:text-2xl font-bold mb-1.5 leading-tight">
                   {getImageAtPosition(0).title}
                 </h3>
+                <p className="text-xs md:text-sm text-gray-200 line-clamp-2 leading-relaxed opacity-90">
+                  {getImageAtPosition(0).description}
+                </p>
               </div>
 
               {/* Clean border */}

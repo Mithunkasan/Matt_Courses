@@ -158,7 +158,12 @@ export default function DynamicCourseDetail({ course }: DynamicCourseDetailProps
       {/* Course Detail Core Sections */}
       <PythonFullStackHero courseTitle={course.title} learningOutcome={course.learningOutcome} />
       <PlacementCareerSupport courseTitle={course.title} keySkills={course.keySkills} />
-      <CareerProgramSection />
+      <CareerProgramSection 
+        courseTitle={course.title}
+        keySkills={course.keySkills}
+        programStructure={course.programStructure}
+        careerSupport={course.careerSupport}
+      />
       <AnimatedTestimonialsDemo />
       <PythonMarqueeGallery courseTitle={course.title} modules={course.modules} />
       <CareerAndTechSection courseTitle={course.title} keySkills={course.keySkills} />
