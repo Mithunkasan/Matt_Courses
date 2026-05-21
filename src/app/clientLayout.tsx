@@ -17,16 +17,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   const [showOfferBanner, setShowOfferBanner] = useState(false);
 
 
-  useEffect(() => {
-    function handleNavbar() {
-      if (pathname === '/software') {
-        setShow(false)
-      } else {
-        setShow(true)
-      }
-    }
-    handleNavbar()
-  }, [pathname])
+
 
   // useEffect(() => {
   //   function handleBanner() {

@@ -11,21 +11,30 @@ import Link from 'next/link';
 
 const Footer = () => {
   const date: Date = new Date()
-  const resources: string[] = [
-    'Home',
-    'About Us',
-    'Contact Us',
+  const resources = [
+    { name: 'Home', path: '/' },
+    { name: 'About Us', path: '/aboutUs' },
+    { name: 'Contact Us', path: '/Contacts' },
   ]
 
-  const courses: string[] = [
-    'Python',
-    'Mernstack',
+  const courseDomains = [
+    { name: 'Hardware & Embedded', path: '/hardware' },
+    { name: 'Programming Languages', path: '/programming' },
+    { name: 'Analytics & AI', path: '/analytics' },
+    { name: 'Software & Cyber', path: '/software' },
+  ]
+
+  const internships = [
+    { name: 'Hardware & Embedded', path: '/internships/hardware-embedded' },
+    { name: 'Programming', path: '/internships/programming' },
+    { name: 'Data, AI & Analytics', path: '/internships/data-ai-analytics' },
+    { name: 'Web, Security & Automation', path: '/internships/web-security-automation' },
   ]
 
   return (
     <footer className='bg-[#061e43] w-full h-auto mt-[2rem]'>
       <section className='pt-[110px] pb-[55px] flex justify-between items-start flex-wrap px-[6%] gap-y-[2rem]'>
-        <div className='basis-[30%] pr-[5rem] max-lg:basis-[50%] max-sm:basis-[100%]'>
+        <div className='basis-[25%] pr-[2rem] max-lg:basis-[50%] max-sm:basis-[100%]'>
           <div className='flex items-center justify-start gap-[0.5rem] mb-[1.3rem]'>
             <img src="/logo.png" alt="MATT" className='mt-[5px] w-[40px] h-[40px] rounded-[50%] border-blue-400 border-[1px]' />
             <div className='font-semibold'>
@@ -63,27 +72,49 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className='basis-[20%] max-lg:basis-[50%] max-sm:basis-[100%]'>
+        <div className='basis-[15%] max-lg:basis-[50%] max-sm:basis-[100%]'>
           <h1 className='text-[24px] font-semibold mb-[28px]  text-[#b2bdcd]'>Resources</h1>
           <ul className='flex flex-col gap-[15px] text-[#B2BDCD] text-[16px] font-[600]'>
             {resources.map((item, index) => (
-              <li key={index} className='pDashed flex items-center gap-[5px] cursor-pointer hover:text-[#1363DF] overflow-hidden'> <p><BsDash className='h-[10px] w-[15px] font-[900] dashed duration-[0.5s] ml-[-15px]' /> </p>{item}</li>
-            ))
-            }
+              <li key={index} className='pDashed flex items-center gap-[5px] cursor-pointer hover:text-[#1363DF] overflow-hidden'>
+                <Link href={item.path} className="flex items-center gap-[5px] w-full">
+                  <BsDash className='h-[10px] w-[15px] font-[900] dashed duration-[0.5s] ml-[-15px]' />
+                  <span>{item.name}</span>
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
-        <div className='basis-[20%] max-lg:basis-[50%]  text-[#b2bdcd]  text-[#b2bdcd]max-sm:basis-[100%]'>
+        <div className='basis-[20%] max-lg:basis-[50%] text-[#b2bdcd] max-sm:basis-[100%]'>
           <h1 className='text-[24px] font-semibold mb-[28px]'>Courses</h1>
           <ul className='flex flex-col gap-[15px] text-[#B2BDCD] text-[16px] font-[600]'>
-            {courses.map((item, index) => (
-              <li key={index} className='pDashed flex items-center gap-[5px] cursor-pointer hover:text-[#1363DF] overflow-hidden'><p> <BsDash className='font-bold dashed duration-[0.5s] ml-[-15px]' /></p>{item}</li>
-            ))
-            }
+            {courseDomains.map((item, index) => (
+              <li key={index} className='pDashed flex items-center gap-[5px] cursor-pointer hover:text-[#1363DF] overflow-hidden'>
+                <Link href={item.path} className="flex items-center gap-[5px] w-full">
+                  <BsDash className='font-bold dashed duration-[0.5s] ml-[-15px]' />
+                  <span>{item.name}</span>
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
-        <div className='basis-[25%] max-lg:basis-[50%] max-sm:basis-[100%]  text-[#b2bdcd]'>
+        <div className='basis-[20%] max-lg:basis-[50%] text-[#b2bdcd] max-sm:basis-[100%]'>
+          <h1 className='text-[24px] font-semibold mb-[28px]'>Internships</h1>
+          <ul className='flex flex-col gap-[15px] text-[#B2BDCD] text-[16px] font-[600]'>
+            {internships.map((item, index) => (
+              <li key={index} className='pDashed flex items-center gap-[5px] cursor-pointer hover:text-[#1363DF] overflow-hidden'>
+                <Link href={item.path} className="flex items-center gap-[5px] w-full">
+                  <BsDash className='font-bold dashed duration-[0.5s] ml-[-15px]' />
+                  <span>{item.name}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className='basis-[20%] max-lg:basis-[50%] max-sm:basis-[100%]  text-[#b2bdcd]'>
           <h1 className='text-[24px] font-semibold mb-[28px]'>Working Hours</h1>
           <div className='flex justify-between items-center pb-[16px] mb-[15px] text-[15px] border-b-[0.5px] border-b-[#2A4774]'>
             <h1 className='font-semibold'>Mon - Fri</h1>

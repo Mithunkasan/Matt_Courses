@@ -371,6 +371,24 @@ const courses: Course[] = [
         comment: "Fascinating course! I learned professional-grade multi-layer stackups and differential routing. The instructor solved real routing challenges.",
       },
     ],
+    programStructure: [
+      "Designed specifically for electronics, hardware, and instrumentation graduates",
+      "90+ hours of intensive lab training on industrial EDA tools (Altium/KiCad)",
+      "Master standard footprint creation according to IPC-7351 guidelines",
+      "Hands-on project work covering schematic capture, routing, and stackup planning",
+      "Dedicated hardware review and DRC verification feedback",
+      "Prepare manufacturing-ready deliverables (Gerbers, Drill, BOM, Pick-and-Place)",
+      "Access to electronic manufacturing network and hardware engineering community"
+    ],
+    careerSupport: [
+      "1:1 mock interviews focused on PCB layout design and signal integrity principles",
+      "Resume, portfolio, and design gallery curation review by expert layout architects",
+      "Weekly core electronics and PCB designer job listings",
+      "Curation of a professional hardware portfolio showcasing multi-layer designs",
+      "Assistance with component library management and supplier selection (Mouser, Digikey)",
+      "Direct technical preparation for hardware validation and layout engineer roles",
+      "Referrals to top embedded product and hardware manufacturing companies"
+    ],
   },
   {
     id: "5",

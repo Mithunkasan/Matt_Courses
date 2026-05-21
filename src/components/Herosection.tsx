@@ -6,75 +6,86 @@ import { useEffect, useState } from "react"
 import type React from "react"
 import { useRouter } from "next/navigation"
 import { motion, AnimatePresence } from "framer-motion"
+import { getAllCourses } from "../lib/course-data"
 
-// Mock courses data - replace with your actual data
-const courses = [
-  // {
-  //   id: 1,
-  //   title: "Full Stack Development",
-  //   categories: ["Web Development", "JavaScript"],
-  //   image: "/placeholder.svg?height=40&width=40",
-  //   path: "/courses/fullstack",
-  // },
-  {
-    id: 2,
-    title: "Python Fullstack",
-    categories: ["Programming", "Python", "Fullstack"],
-    image: "/python.png",
-    path: "/courses/python-fullstack-development",
-  },
-  // {
-  //   id: 3,
-  //   title: "Data Science",
-  //   categories: ["Analytics", "Machine Learning"],
-  //   image: "/placeholder.svg?height=40&width=40",
-  //   path: "/courses/data-science",
-  // },
-  {
-    id: 4,
-    title: "Mern Stack",
-    categories: ["Frontend", "React", "Web designing", "Fullstack", "HTML", "CSS", "JavaScript", "Nextjs"],
-    image: "/mern.png",
-    path: "/courses/mern-stack",
-  },
-  // {
-  //   id: 5,
-  //   title: "Machine Learning",
-  //   categories: ["AI", "Data Science"],
-  //   image: "/placeholder.svg?height=40&width=40",
-  //   path: "/courses/ml",
-  // },
-]
+// Load and map MATT ACADEMY's premium engineering courses dynamically
+const rawCourses = getAllCourses()
+const courses = rawCourses.map((course) => {
+  // Choose beautiful premium tech images dynamically depending on course content
+  let imageUrl = "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=400"; // Default hardware
+  
+  const slugLower = course.slug.toLowerCase();
+  if (slugLower.includes("fullstack") || slugLower.includes("stack") || slugLower.includes("mern")) {
+    imageUrl = "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=400";
+  } else if (slugLower.includes("python") || slugLower.includes("programming") || slugLower.includes("c-") || slugLower.includes("java")) {
+    imageUrl = "https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=400";
+  } else if (slugLower.includes("robot") || slugLower.includes("drone")) {
+    imageUrl = "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400";
+  } else if (slugLower.includes("design") || slugLower.includes("pcb")) {
+    imageUrl = "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400";
+  } else if (slugLower.includes("data") || slugLower.includes("power") || slugLower.includes("learning") || slugLower.includes("intelligence")) {
+    imageUrl = "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=400";
+  }
 
-// Enhanced search suggestions with categories and colors
+  // Determine technical subjects
+  let subject = "Hardware & Embedded Systems";
+  if (
+    slugLower.includes("stack") || 
+    slugLower.includes("programming") || 
+    slugLower.includes("web") || 
+    slugLower.includes("development") || 
+    slugLower.includes("marketing")
+  ) {
+    subject = "Software & Web Development";
+  } else if (
+    slugLower.includes("data") || 
+    slugLower.includes("power") || 
+    slugLower.includes("learning") || 
+    slugLower.includes("intelligence") || 
+    slugLower.includes("rpa")
+  ) {
+    subject = "Data Science & AI";
+  }
+
+  return {
+    id: Number(course.id),
+    title: course.title,
+    categories: [subject, ...course.keySkills.slice(0, 3)],
+    image: imageUrl,
+    path: `/courses/${course.slug}`
+  };
+})
+
+// Enhanced search suggestions representing the most popular course from each domain
 const searchSuggestions = [
-  // { text: "Web Development", category: "Frontend", color: "#FF6B6B" },
-  // { text: "Python", category: "Programming", color: "#4ECDC4" },
-  // { text: "Data Science", category: "Analytics", color: "#45B7D1" },
-  // { text: "Machine Learning", category: "AI", color: "#96CEB4" },
-  // { text: "React", category: "Frontend", color: "#FFEAA7" },
-  // { text: "JavaScript", category: "Programming", color: "#DDA0DD" },
-  // { text: "AI", category: "Technology", color: "#98D8C8" },
-  // { text: "Full Stack", category: "Development", color: "#F7DC6F" },
-  // { text: "Frontend", category: "Development", color: "#BB8FCE" },
-  // { text: "Backend", category: "Development", color: "#85C1E9" },
-  // { text: "Web Development", category: "Frontend", color: "#FF6B6B" },
-  // { text: "Python", category: "Programming", color: "#4ECDC4" },
-  // { text: "Data Science", category: "Analytics", color: "#45B7D1" },
-  // { text: "Machine Learning", category: "AI", color: "#96CEB4" },
-  // { text: "React", category: "Frontend", color: "#FFEAA7" },
-  // { text: "JavaScript", category: "Programming", color: "#DDA0DD" },
-  // { text: "AI", category: "Technology", color: "#98D8C8" },
-  // { text: "Full Stack", category: "Development", color: "#F7DC6F" },
-  // { text: "Frontend", category: "Development", color: "#BB8FCE" },
-  // { text: "Backend", category: "Development", color: "#85C1E9" },
-  { text: "Web Development", category: "Frontend", color: "#FF6B6B", path: "mern-stack" },
-  { text: "Python", category: "Programming", color: "#4ECDC4", path: "python-fullstack-development"},
-  { text: "React", category: "Frontend", color: "#FFEAA7", path: "mern-stack" },
-  { text: "JavaScript", category: "Programming", color: "#DDA0DD", path: "mern-stack" },
-  { text: "Django", category: "Programming", color: "#DDA0DD" ,path: "python-fullstack-development" },
-  { text: "HTML", category: "Programming", color: "#DDA0DD", path: "mern-stack" },
-  { text: "CSS", category: "Programming", color: "#DDA0DD", path: "mern-stack" },
+  { 
+    text: "Embedded Systems", 
+    category: "Hardware & Embedded", 
+    color: "#3b82f6", 
+    path: "embedded-systems",
+    description: "Program microcontrollers (AVR, PIC, ARM7) and write reliable custom firmware for real-time hardware applications."
+  },
+  { 
+    text: "Python Programming", 
+    category: "Programming Languages", 
+    color: "#10b981", 
+    path: "python-programming",
+    description: "The most versatile language today. Master Python data structures, OOP, web scrapers, data analysis, and script automation."
+  },
+  { 
+    text: "Artificial Intelligence", 
+    category: "Analytics & AI", 
+    color: "#f59e0b", 
+    path: "artificial-intelligence",
+    description: "Explore the frontier of AI. Master smart agent architectures, generative AI models, prompt engineering, and ethical AI development."
+  },
+  { 
+    text: "MERN Stack Development", 
+    category: "Software & Cyber", 
+    color: "#ec4899", 
+    path: "Mern-stack",
+    description: "Build dynamic, high-performance web applications using MongoDB, Express.js, React.js, and Node.js. Master fullstack javascript development."
+  },
 ]
 
 export default function HeroSection() {
@@ -83,6 +94,7 @@ export default function HeroSection() {
   const [searchQuery, setSearchQuery] = useState("")
   const [windowWidth, setWindowWidth] = useState(0)
   const [windowHeight, setWindowHeight] = useState(0)
+  const [selectedSuggestion, setSelectedSuggestion] = useState<any>(null)
   const [animationStyle] = useState(0) // 0: floating, 1: wave, 2: carousel
   const router = useRouter()
 
@@ -130,9 +142,8 @@ export default function HeroSection() {
     }
   }
 
-  const handleSuggestionClick = (suggestion: string) => {
-    setSearchQuery(suggestion)
-    router.push(`/courses/${suggestion}`)
+  const handleSuggestionClick = (suggestion: any) => {
+    setSelectedSuggestion(suggestion)
   }
 
   // Responsive breakpoint functions
@@ -256,8 +267,7 @@ export default function HeroSection() {
       style={{
         position: "relative",
         background: "linear-gradient(135deg, #f8f9fa 0%, #f0f8ff 100%)",
-        overflowX: "hidden",
-        overflowY: "hidden",
+        overflow: "visible",
         minHeight: getMinHeight(),
         width: "100%",
         display: "flex",
@@ -412,7 +422,7 @@ export default function HeroSection() {
           }}
         >
           {/* Left side content */}
-          <div style={{ position: "relative", zIndex: 2 }}>
+          <div style={{ position: "relative", zIndex: showSearchResults ? 50 : 5 }}>
             {/* Guarantee badge */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -569,6 +579,7 @@ export default function HeroSection() {
                   onChange={(e) => {
                     setSearchQuery(e.target.value)
                     setShowSearchResults(true)
+                    setSelectedSuggestion(null)
                   }}
                   onFocus={() => setShowSearchResults(true)}
                   style={{
@@ -586,8 +597,9 @@ export default function HeroSection() {
 
               {/* Enhanced Animated Search Suggestions */}
               {searchQuery === "" ? (
-                <div style={{ marginBottom: isXs ? "16px" : isSm ? "20px" : "24px", overflow: "hidden" }}>
-                  <motion.div
+                <>
+                  <div style={{ marginBottom: isXs ? "16px" : isSm ? "20px" : "24px", overflow: "hidden" }}>
+                    <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.8 }}
@@ -632,13 +644,13 @@ export default function HeroSection() {
                             width: "100%",
                           }}
                         >
-                          {searchSuggestions.slice(0, isMobile ? 6 : 8).map((suggestion, index) => (
+                          {searchSuggestions.map((suggestion, index) => (
                             <motion.button
                               key={`floating-${index}`}
                               custom={index}
                               variants={floatingVariants}
                               animate="animate"
-                              onClick={() => handleSuggestionClick(suggestion.path)}
+                              onClick={() => handleSuggestionClick(suggestion)}
                               whileHover={{
                                 scale: 1.1,
                                 y: -5,
@@ -700,13 +712,13 @@ export default function HeroSection() {
                             width: "100%",
                           }}
                         >
-                          {searchSuggestions.slice(0, isMobile ? 6 : 8).map((suggestion, index) => (
+                          {searchSuggestions.map((suggestion, index) => (
                             <motion.button
                               key={`wave-${index}`}
                               custom={index}
                               variants={waveVariants}
                               animate="animate"
-                              onClick={() => handleSuggestionClick(suggestion.text)}
+                              onClick={() => handleSuggestionClick(suggestion)}
                               whileHover={{
                                 scale: 1.15,
                                 rotate: 5,
@@ -780,7 +792,7 @@ export default function HeroSection() {
                             {[...searchSuggestions, ...searchSuggestions].map((suggestion, index) => (
                               <motion.button
                                 key={`carousel-${index}`}
-                                onClick={() => handleSuggestionClick(suggestion.text)}
+                                onClick={() => handleSuggestionClick(suggestion)}
                                 whileHover={{
                                   scale: 1.1,
                                   rotateY: 15,
@@ -830,8 +842,148 @@ export default function HeroSection() {
                     </AnimatePresence>
                   </div>
                 </div>
-              ) : null
-              }
+
+                {/* Premium Glassmorphic Animated Preview Card */}
+                <AnimatePresence>
+                  {selectedSuggestion && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0, y: -15, scale: 0.95 }}
+                      animate={{ opacity: 1, height: "auto", y: 0, scale: 1 }}
+                      exit={{ opacity: 0, height: 0, y: -15, scale: 0.95 }}
+                      transition={{ duration: 0.4, ease: "easeInOut" }}
+                      style={{
+                        overflow: "hidden",
+                        width: "100%",
+                        maxWidth: isXs ? "100%" : isSm ? "500px" : isLg ? "700px" : "600px",
+                        marginTop: "20px",
+                        marginBottom: "24px",
+                        borderRadius: isXs ? "16px" : "24px",
+                        border: `2px solid ${selectedSuggestion.color}35`,
+                        background: `linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, ${selectedSuggestion.color}08 100%)`,
+                        backdropFilter: "blur(20px)",
+                        boxShadow: `0 20px 40px rgba(0, 0, 0, 0.04), 0 8px 24px ${selectedSuggestion.color}15`,
+                        position: "relative",
+                        zIndex: 10,
+                        padding: isXs ? "20px" : "28px",
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "16px",
+                        textAlign: "left",
+                      }}
+                    >
+                      {/* Close button */}
+                      <motion.button
+                        whileHover={{ scale: 1.1, backgroundColor: "rgba(0, 0, 0, 0.08)" }}
+                        whileTap={{ scale: 0.9 }}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setSelectedSuggestion(null);
+                        }}
+                        style={{
+                          position: "absolute",
+                          top: isXs ? "16px" : "20px",
+                          right: isXs ? "16px" : "20px",
+                          width: "32px",
+                          height: "32px",
+                          borderRadius: "50%",
+                          background: "rgba(0, 0, 0, 0.04)",
+                          border: "none",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          cursor: "pointer",
+                          color: "#5f6368",
+                        }}
+                        aria-label="Close preview"
+                      >
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                          <line x1="18" y1="6" x2="6" y2="18"></line>
+                          <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                      </motion.button>
+
+                      {/* Category badge */}
+                      <div style={{ display: "flex", alignItems: "center" }}>
+                        <span
+                          style={{
+                            padding: "6px 14px",
+                            borderRadius: "20px",
+                            background: `${selectedSuggestion.color}15`,
+                            color: selectedSuggestion.color,
+                            fontSize: isXs ? "0.75rem" : "0.8rem",
+                            fontWeight: "700",
+                            textTransform: "uppercase",
+                            letterSpacing: "0.05em",
+                          }}
+                        >
+                          {selectedSuggestion.category}
+                        </span>
+                      </div>
+
+                      {/* Text details */}
+                      <div>
+                        <h3
+                          style={{
+                            fontSize: isXs ? "1.35rem" : "1.65rem",
+                            fontWeight: "750",
+                            color: "#0A2647",
+                            margin: "0 0 10px 0",
+                            fontFamily: "'Outfit', sans-serif",
+                            lineHeight: "1.25",
+                          }}
+                        >
+                          {selectedSuggestion.text}
+                        </h3>
+                        <p
+                          style={{
+                            fontSize: isXs ? "0.9rem" : "1rem",
+                            color: "#546E7A",
+                            lineHeight: "1.6",
+                            margin: 0,
+                            fontWeight: "450",
+                          }}
+                        >
+                          {selectedSuggestion.description}
+                        </p>
+                      </div>
+
+                      {/* Actions */}
+                      <div style={{ display: "flex", justifyContent: "flex-start", marginTop: "4px" }}>
+                        <motion.button
+                          whileHover={{ 
+                            scale: 1.03, 
+                            boxShadow: `0 12px 28px ${selectedSuggestion.color}40`,
+                            y: -2 
+                          }}
+                          whileTap={{ scale: 0.98 }}
+                          onClick={() => router.push(`/courses/${selectedSuggestion.path}`)}
+                          style={{
+                            padding: isXs ? "10px 20px" : "14px 28px",
+                            borderRadius: "50px",
+                            background: `linear-gradient(135deg, ${selectedSuggestion.color} 0%, ${selectedSuggestion.color}dd 100%)`,
+                            color: "#ffffff",
+                            fontWeight: "700",
+                            fontSize: isXs ? "0.85rem" : "0.95rem",
+                            border: "none",
+                            cursor: "pointer",
+                            boxShadow: `0 8px 20px ${selectedSuggestion.color}25`,
+                            display: "inline-flex",
+                            alignItems: "center",
+                            gap: "8px",
+                          }}
+                        >
+                          Explore Course Details
+                          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: "2px" }}>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                          </svg>
+                        </motion.button>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </>
+            ) : null}
 
               {/* Enhanced Search Results */}
               {/* <AnimatePresence>
@@ -1052,7 +1204,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
-            style={{ position: "relative", marginTop: isMobile ? "24px" : "0" }}
+            style={{ position: "relative", marginTop: isMobile ? "24px" : "0", zIndex: 1 }}
           >
             <div
               style={{

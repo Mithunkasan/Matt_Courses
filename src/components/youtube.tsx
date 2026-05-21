@@ -335,40 +335,36 @@ const YouTubeFeed = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Image 1 */}
-            <div className="relative group overflow-hidden rounded-lg border-2 border-gray-200 dark:border-gray-700 hover:border-red-300 transition-all duration-300">
+            <div className="relative aspect-[16/10] w-full group overflow-hidden rounded-lg border-2 border-gray-200 dark:border-gray-700 hover:border-red-300 transition-all duration-300">
               <img 
-                src="cel.jpg" 
+                src="/achievement.png" 
                 alt="Engineering workshop"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-                <h4 className="text-white font-medium">our achievement</h4>
+                <h4 className="text-white font-medium capitalize">our achievement</h4>
               </div>
             </div>
             
-            {/* Video */}
-            <div className="relative group overflow-hidden rounded-lg border-2 border-gray-200 dark:border-gray-700 hover:border-red-300 transition-all duration-300">
-              <video 
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="w-full h-full object-cover"
-              >
-                <source src="play2.mp4" type="video/mp4" />
-              </video>
+            {/* Play Button Area */}
+            <div className="relative aspect-[16/10] w-full group overflow-hidden rounded-lg border-2 border-gray-200 dark:border-gray-700 hover:border-red-300 transition-all duration-300">
+              <img 
+                src="/playbutton.png"
+                alt="YouTube Play Button Background"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-                <h4 className="text-white font-medium">youtube play button</h4>
+                <h4 className="text-white font-medium capitalize">youtube play button</h4>
               </div>
-              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 flex items-center justify-center opacity-90 group-hover:opacity-100 transition-opacity duration-300">
                 <PlayButton3D_Orb size={60} onClick={() => {}} />
               </div>
             </div>
             
             {/* Image 2 */}
-            <div className="relative group overflow-hidden rounded-lg border-2 border-gray-200 dark:border-gray-700 hover:border-red-300 transition-all duration-300">
+            <div className="relative aspect-[16/10] w-full group overflow-hidden rounded-lg border-2 border-gray-200 dark:border-gray-700 hover:border-red-300 transition-all duration-300">
               <img 
-                src="matt1.png" 
+                src="/matt1.png" 
                 alt="Engineering tools"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
