@@ -93,11 +93,12 @@ const ContactSection: React.FC = () => {
       subject: "",
       message: "",
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error sending email:', error);
+    const errorMsg = error?.text || error?.message || (error && typeof error === "object" ? JSON.stringify(error) : String(error));
     setSubmitStatus({
       success: false,
-      message: error instanceof Error ? error.message : 'Failed to send message. Please try again later.'
+      message: `Failed to send message: ${errorMsg}. Please verify your Service ID, Template ID, and Public Key.`
     });
   } finally {
     setIsSubmitting(false);
