@@ -40,7 +40,7 @@ const OurInstructors: React.FC = () => {
       id: "4",
       name: "Kavin A V",
       profession: "Web Developer",
-      image: "/image/kavin.png",
+      image: "/image/Kavin.png",
       border: "subMain bg-[#E4FFE2] rounded-tl-[135px] rounded-tr-[115] rounded-br-[115] h-[180px] relative",
     },
     {
