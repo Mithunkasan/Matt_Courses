@@ -133,11 +133,11 @@ export default function Home() {
                                 Contact Info
                             </h2>
 
-                            <div className="relative mb-3 rounded-md overflow-hidden">
+                            <div className="relative mb-3 flex justify-center items-center h-24 bg-white/10 rounded-md p-2">
                                 <img
-                                    src="/matt classes.jpg"
-                                    alt="Matt Classes"
-                                    className="w-full h-24 object-cover rounded-md"
+                                    src="/logo.png"
+                                    alt="MATT ACADEMY Logo"
+                                    className="max-h-full max-w-full object-contain rounded-md transition-transform duration-300 hover:scale-105"
                                 />
                             </div>
 

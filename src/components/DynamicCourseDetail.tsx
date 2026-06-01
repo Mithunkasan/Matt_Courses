@@ -73,7 +73,7 @@ export default function DynamicCourseDetail({ course }: DynamicCourseDetailProps
 
             {/* Right Side - Image and Stats */}
             <div className="relative flex justify-center lg:justify-end items-start lg:items-center">
-              <div className="relative w-full max-w-[220px] sm:max-w-[300px] lg:max-w-[380px] xl:max-w-[420px]">
+              <div className="relative w-full max-w-[260px] sm:max-w-[300px] lg:max-w-[380px] xl:max-w-[420px]">
                 {/* Main Image */}
                 <img
                   src="/riswan.png"
@@ -82,7 +82,7 @@ export default function DynamicCourseDetail({ course }: DynamicCourseDetailProps
                 />
 
                 {/* Floating Stats Cards */}
-                <div className="absolute top-16 -left-6 sm:top-20 sm:-left-8 lg:top-24 lg:-left-10 bg-white rounded-xl shadow-xl p-2 sm:p-3 flex items-center gap-2 sm:gap-3 animate-float">
+                <div className="absolute top-36 -left-4 sm:top-20 sm:-left-8 lg:top-24 lg:-left-10 bg-white rounded-xl shadow-xl p-2 sm:p-3 flex items-center gap-2 sm:gap-3 animate-float">
                   <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-yellow-400 rounded-lg flex items-center justify-center flex-shrink-0">
                     <BookOpen className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-white" />
                   </div>
@@ -92,7 +92,7 @@ export default function DynamicCourseDetail({ course }: DynamicCourseDetailProps
                   </div>
                 </div>
 
-                <div className="absolute top-44 -right-6 sm:top-52 sm:-right-8 lg:top-60 lg:-right-10 bg-white rounded-xl shadow-xl p-2 sm:p-3 flex items-center gap-2 sm:gap-3 animate-float" style={{ animationDelay: '0.5s' }}>
+                <div className="absolute bottom-6 -right-4 sm:bottom-auto sm:top-52 sm:-right-8 lg:top-60 lg:-right-10 bg-white rounded-xl shadow-xl p-2 sm:p-3 flex items-center gap-2 sm:gap-3 animate-float" style={{ animationDelay: '0.5s' }}>
                   <div className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-orange-400 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Award className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 text-white" />
                   </div>
