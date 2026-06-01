@@ -61,7 +61,7 @@ const PythonFullStackHero = ({ courseTitle, learningOutcome }: PythonFullStackHe
             <div className="relative w-full max-w-[300px] mx-auto">
               <div className="aspect-[3/4] relative overflow-hidden group rounded-xl shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=500&fit=crop"
+                  src="/image/aathil.jpg"
                   alt={courseTitle || "Python Programming"}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
